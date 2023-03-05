@@ -1,0 +1,16 @@
+*{
+    margin:  0 auto;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: antiquewhite;
+    transition: 300ms;
+    border: 1px solid lightgray;
+    height:200px;
+    align-items: center;
+}
+
+.active{
+    background-color: limegreen;
+}

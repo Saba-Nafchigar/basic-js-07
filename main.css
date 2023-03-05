@@ -1,0 +1,29 @@
+#root{
+    background-color: rgb(99, 221, 75);
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    padding: 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+div{
+    width: 50%;
+    height: 50px;
+    background-color: lightgray;
+    padding: 50px;
+    margin:  50px auto;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+
+.active{
+    background-color: limegreen;
+}
+
+.radius{
+    border-radius: 25px;
+}
